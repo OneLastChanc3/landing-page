@@ -4,10 +4,11 @@ function App() {
 
 
   return (
-    <>
-    <div class="bg-navy-850 text-white p-4"> hola</div>
-      <Header />
-    </>
+    <main className='border border-white w-[375px] m-auto'>
+      <section className='bg-navy-850 p-6 h-[420px]'>
+         <Header />
+      </section>
+    </main>
   )
 }
 

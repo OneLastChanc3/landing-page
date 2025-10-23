@@ -2,28 +2,28 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header>
+    <header className='flex justify-between'> 
       <a href='/'>
-        <img src="public/images/logo.svg" alt="logo"></img>
+        <img className='w-20' src="public/images/logo.svg" alt="logo"></img>
       </a>
       <nav>
-        <ul>
+        <ul className='flex gap-6'>
           <li>
-            <a href="#">
+            <a className='hover:font-bold'  href="#">
               Features
             </a>
           </li>
           <li>
-            <a href="#">
+            <a className='hover:font-bold' href="#">
               Team
             </a>
           </li>
           <li>
-            <a href="#">
+            <a className='hover:font-bold' href="#">
               Sing in
             </a>
           </li>
-        </ul>
+        </ul> 
       </nav>
     </header>
   )
