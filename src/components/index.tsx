@@ -5,3 +5,5 @@ export {default as Button} from "./Button";
 export {default as Features} from "./Features"
 export {default as MoreInformation} from "./MoreInformation";
 export {default as Testimonials} from "./Testimonials";
+export {Form} from "./Form";
+export {Footer} from "./Footer"

@@ -1,4 +1,4 @@
-import {Header,Hero,Features,MoreInformation,Testimonials} from "./components/index"
+import {Header,Hero,Features,MoreInformation,Testimonials, Form} from "./components/index"
 
 
 function App() {
@@ -17,11 +17,15 @@ function App() {
           alt="curva"/>
       </section>
 
-      <section className="bg-navy-900 p-6">
+      <section className="bg-navy-900 p-6 pb-[300px]">
         <Hero/>
         <Features/>
         <MoreInformation/>
-        <Testimonials className='mt-40'/>
+        <Testimonials/>
+      </section>
+      <section className="bg-navy-950 relative">
+        <Form/>
+        
       </section>
       
     </main>
